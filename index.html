@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Client-server</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <div class="header__logo">
+            <img class="header__logo-img" src="./img/logo.png" alt="" />
+            <h1 class="header__logo-title">Мой блог</h1>
+          </div>
+
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="./about__me.html" class="header__nav-link">Обо мне</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="./index.html" class="header__nav-link">Мои статьи</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="./myPortfolio.html" class="header__nav-link">Мои работы</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="article">
+        <div class="container">
+          <div class="article__container">
+            <h2 class="article__title">Мои статьи:</h2>
+            <ul class="article__list-group">
+              <li class="article__list-group-item">
+                <a class="article__list-group-link" href="./post.html">Ссылка 1</a>
+              </li>
+              <li class="article__list-group-item">
+                <a class="article__list-group-link" href="#">Ссылка 2</a>
+              </li>
+            </ul>
+            <nav class="paginate-block" aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item dots">. . .</li>
+                <li class="page-item">
+                  <a class="page-link" href="#">25</a>
+                </li>
+                <li class="page-item btn-next">
+                  <a class="page-link btn-next" href="#">next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
